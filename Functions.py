@@ -27,8 +27,8 @@ def grad(x, y, yhat, lambd, w):
     
     """
     Calculates the gradient for gradient descent based on the feature input X,
-    the prediction y and the actual value y. The extra term lambd * w at the end
-    is to penalize larger weights of the gradient.
+    the prediction y and the actual value y. The extra term lambd * w is a form of
+    regularisation which helps prevent overfitting.
     """
     
     cost = np.subtract(y,yhat)
