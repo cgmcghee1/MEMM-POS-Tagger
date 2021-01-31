@@ -7,3 +7,6 @@ This is an attempt at a POS tagger based on a Maximum Entropy Markov Model. The 
 <p> >>> a.tagger('Where is the train station?') </p>
 
 ['RB', 'VBZ', 'DT', 'NN', 'NN', '.']
+
+<p>If you are using pip you can install the required packages with the following command:</p>
+<p>>>> pip install -r requirements.txt </p>
