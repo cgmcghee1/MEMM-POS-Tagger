@@ -5,4 +5,5 @@ This is a POS tagger based on a Maximum Entropy Markov Model. The functions file
 <p> >>> import MEMM </p>
 <p> >>> a = MEMM.Model().train() </p>
 <p> >>> a.tagger('Where is the train station?') </p>
+
 ['RB', 'VBZ', 'DT', 'NN', 'NN', '.']
